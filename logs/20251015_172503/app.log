@@ -1,0 +1,138 @@
+===== System Information =====
+Time: 2025-10-15T16:19:36.000
+App: ColorProDisplayManager
+App Version: 1.1.0.1015
+Qt Version: 6.5.3
+OS: macOS 15.5
+CPU Arch: arm64
+Screen[0] Name: Built-in Retina Display
+Screen[0] Size: 1800 x 1169 px
+Screen[0] DPI: 72
+Screen[0] Physical Size: 301.782mm x 195.991mm
+Screen[1] Name: VG2748A
+Screen[1] Size: 1920 x 1080 px
+Screen[1] DPI: 72
+Screen[1] Physical Size: 602.074mm x 338.667mm
+==============================
+[16:19:36.000]  [T:0xefcfd] I: [ initialize ] CAppRunningNotifier server is running
+[16:19:36.000]  [T:0xefcfd] D: [LanguageManager] initSystemLanguage: loaded "en_US"
+[16:19:36.359]  [T:0xefcfd] I: [ loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-Regular.ttf" -> families: "Inter"
+[16:19:36.361]  [T:0xefcfd] I: [ loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-Medium.ttf" -> families: "Inter"
+[16:19:36.362]  [T:0xefcfd] I: [ loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-SemiBold.ttf" -> families: "Inter"
+[16:19:36.362]  [T:0xefcfd] D: CICCSyncModule constructed, binding to GlobalEvent
+[16:19:36.799]  [T:0xefcfd] D: CColorBlindnessModule constructed, binding to GlobalEvent
+[16:19:36.924]  [T:0xefcfd] I: Enter MutuallySyncBase::SetOsFunction
+[16:19:36.924]  [T:0xefcfd] I: Exit MutuallySyncBase::SetOsFunction
+[16:19:36.924]  [T:0xefcfd] I: Enter MutuallySyncBase::SetOsFunction
+[16:19:36.924]  [T:0xefcfd] I: Exit MutuallySyncBase::SetOsFunction
+[16:19:36.924]  [T:0xefcfd] D: CMutuallySyncModule constructed, binding to GlobalEvent
+[16:19:36.928]  [T:0xefcfd] I: [ importConfig ] "userConfigPath:/Users/huangme/Library/Application Support/ColorProDisplayManager"
+[16:19:37.352]  [T:0xefcfd] D: [ICCSync] DC reset → block initialize
+[16:19:37.352]  [T:0xefcfd] D: [CColorBlindnessModule] DC reset → block initialize
+[16:19:37.353]  [T:0xefcfd] D: [CMutuallySyncModule] DC reset → block initialize
+[16:19:38.847]  [T:0xefcfd] D: [ICCSync] DC ready received
+[16:19:38.847]  [T:0xefcfd] D: [CColorBlindnessModule] DC ready received
+[16:19:38.848]  [T:0xefcfd] D: [CMutuallySyncModule] DC ready received
+[16:19:38.848]  [T:0xefcfd] D: modelName =  "VG2748A"
+[16:19:38.848]  [T:0xefcfd] W: [ catchMonitors ] Failed to catch monitor, Monitor map is empty
+[16:19:38.848]  [T:0xefcfd] W: [ catchMonitors ] Failed: catchMonitors
+[16:19:38.848]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorModelMap
+[16:19:38.848]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::AllMonitorVCPXORMap
+[16:19:38.848]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::ALLMonitorVCPOptionMap
+[16:19:38.848]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorModelMap
+[16:19:38.848]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap
+[16:19:38.848]  [T:0xefcfd] W: [ getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[16:19:38.848]  [T:0xefcfd] I: [ initializeAutoScreenPivot ] connectedMonitorSet:  QSet()
+[16:19:38.848]  [T:0xefcfd] I: [ initializeAutoScreenPivot ] mAutoMonitorSet:  QSet()
+[16:19:38.848]  [T:0xefcfd] D: CICCSyncModule::Initialize()
+[16:19:38.849]  [T:0xefcfd] D: [ICCSync] DC ready → do Start
+[16:19:38.849]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap
+[16:19:38.849]  [T:0xefcfd] W: [ getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[16:19:38.849]  [T:0xefcfd] W: [ICCSync] Start failed → init aborted
+[16:19:38.849]  [T:0xefcfd] I: [ getValue ] No such key in JSON object:  std::vector("MutuallySync", "brightness_sync_on_off")
+[16:19:38.849]  [T:0xefcfd] I: CMutuallySyncModule::setBrightnessSync( true )
+[16:19:38.849]  [T:0xefcfd] I: [ getValue ] No such key in JSON object:  std::vector("MutuallySync", "sync_all_monitor")
+[16:19:38.849]  [T:0xefcfd] I: CMutuallySyncModule::setSyncAll( false )
+[16:19:38.849]  [T:0xefcfd] I: [ getValue ] No such key in JSON object:  std::vector("MutuallySync", "volume_sync_on_off")
+[16:19:38.849]  [T:0xefcfd] I: CMutuallySyncModule::setVolumeSync( true )
+[16:19:38.850]  [T:0xefcfd] I: [MutuallySync] is_brightness_sync_on_off_ =  true
+[16:19:38.850]  [T:0xefcfd] I: [MutuallySync] is_sync_all_ =  false
+[16:19:38.850]  [T:0xefcfd] I: [MutuallySync] is_volume_sync_on_off_ =  true
+[16:19:38.850]  [T:0xefcfd] I: Enter FunctionKeyDetector::Init()
+[16:19:38.960]  [T:0xefcfd] I: Exit FunctionKeyDetector::Init()
+[16:19:38.960]  [T:0xefcfd] D: Enter CMutuallySyncModule::Initialize()
+[16:19:38.960]  [T:0xefcfd] D: [CMutuallySyncModule] DC ready → do Start
+[16:19:38.960]  [T:0xefcfd] I: Enter BrightnessSyncFromBuildInMonitor::SetDisplayerVector
+[16:19:38.960]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap
+[16:19:38.960]  [T:0xefcfd] W: [ getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[16:19:38.960]  [T:0xefcfd] I: Exit BrightnessSyncFromBuildInMonitor::SetDisplayerVector
+[16:19:38.960]  [T:0xefcfd] I: Enter CMutuallySyncModule::Start(is_first_init) =  true
+[16:19:38.961]  [T:0xefcfd] I: Enter BrightnessSyncFromBuildInMonitor::SetDisplayerVector
+[16:19:38.961]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap
+[16:19:38.961]  [T:0xefcfd] W: [ getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[16:19:38.961]  [T:0xefcfd] I: Exit BrightnessSyncFromBuildInMonitor::SetDisplayerVector
+[16:19:38.961]  [T:0xefcfd] I: Enter VolumeSync::SetDisplayerVector()
+[16:19:38.961]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap
+[16:19:38.961]  [T:0xefcfd] W: [ getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[16:19:38.961]  [T:0xefcfd] I: Exit VolumeSync::SetDisplayerVector()
+[16:19:38.961]  [T:0xefcfd] I: Enter BrightnessSyncFromBuildInMonitor::Init(is_first_init) =  true
+[16:19:38.961]  [T:0xefcfd] I: Enter MutuallySyncBase::UpdateDisplayList
+[16:19:39.050]  [T:0xefcfd] I: Exit MutuallySyncBase::UpdateDisplayList
+[16:19:39.050]  [T:0xefcfd] I: Init: [0] pre_builtin_monitor_brightness_ =  0
+[16:19:39.050]  [T:0xefcfd] I: Init: [1] pre_builtin_monitor_brightness_ =  62
+[16:19:39.050]  [T:0xefcfd] I: Exit BrightnessSyncFromBuildInMonitor::Init
+[16:19:39.051]  [T:0xefcfd] I: [MutuallySync] Init is_dark_mode =  false
+[16:19:39.051]  [T:0xefcfd] I: Enter VolumeSync::Init(is_first_init) =  true
+[16:19:39.051]  [T:0xefcfd] I: Enter MutuallySyncBase::UpdateDisplayList
+[16:19:39.138]  [T:0xefcfd] I: Exit MutuallySyncBase::UpdateDisplayList
+[16:19:39.138]  [T:0xefcfd] I: Enter UpdateAudioOutputDevices
+[16:19:39.170]  [T:0xefcfd] I: is_default_output
+[16:19:39.170]  [T:0xefcfd] I: 0 : "VG2748A" , false
+[16:19:39.170]  [T:0xefcfd] I: 1 : "MacBook Pro Speakers" , true
+[16:19:39.170]  [T:0xefcfd] I: current_device_index_ =  1
+[16:19:39.170]  [T:0xefcfd] I: Exit UpdateAudioOutputDevices
+[16:19:39.170]  [T:0xefcfd] I: Exit VolumeSync::Init()
+[16:19:39.170]  [T:0xefcfd] I: Exit CMutuallySyncModule::Start()
+[16:19:39.170]  [T:0xefcfd] I: [MutualSync][Volume] UpdateUiDeviceIndex ( 2 )
+[16:19:39.170]  [T:0xefcfd] D: Exit CMutuallySyncModule::Initialize()
+[16:19:39.170]  [T:0xefcfd] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap
+[16:19:39.170]  [T:0xefcfd] W: [ getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[16:19:39.170]  [T:0xefcfd] I: is_color_filter_on_off_ =  false
+[16:19:39.170]  [T:0xefcfd] I: color_filter_mode_ =  -1
+[16:19:39.170]  [T:0xefcfd] I: is_CVD_correction_on_off_ =  false
+[16:19:39.170]  [T:0xefcfd] I: correction_mode_ =  0
+[16:19:39.170]  [T:0xefcfd] I: correction_alpha_ =  50
+[16:19:39.170]  [T:0xefcfd] I: correction_beta_ =  50
+[16:19:39.170]  [T:0xefcfd] I: is_CVD_simulation_on_off_ =  false
+[16:19:39.170]  [T:0xefcfd] I: simulation_mode_ =  -1
+[16:19:39.170]  [T:0xefcfd] D: [CMutuallySyncModule] DC ready → do Start
+[16:19:39.378]  [T:0xefcfd] I: Enter setCurrentMonitorIndex(), index =  0
+[16:19:39.378]  [T:0xefcfd] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap QVariant(Invalid)
+[16:19:39.378]  [T:0xefcfd] W: [ getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[16:19:39.378]  [T:0xefcfd] I: is_color_filter_on_off_ =  false
+[16:19:39.378]  [T:0xefcfd] I: color_filter_mode_ =  -1
+[16:19:39.379]  [T:0xefcfd] I: is_CVD_correction_on_off_ =  false
+[16:19:39.379]  [T:0xefcfd] I: correction_mode_ =  0
+[16:19:39.379]  [T:0xefcfd] I: correction_alpha_ =  50
+[16:19:39.379]  [T:0xefcfd] I: correction_beta_ =  50
+[16:19:39.379]  [T:0xefcfd] I: is_CVD_simulation_on_off_ =  false
+[16:19:39.379]  [T:0xefcfd] I: simulation_mode_ =  -1
+[16:19:39.379]  [T:0xefcfd] I: [ operator() ] Register DisplayChangeEventHandler and set callback function
+[16:19:39.379]  [T:0xefcfd] I: [ CMacWakeUpEventHandler ] Successful creation of WakeUp Event Handler
+[16:19:39.380]  [T:0xefcfd] D: [ convertToRegexPatternAppVersion ] "[ GA4 ] Error         : RegexAppVerion Validate FAIL - Invalid format: [1.1.0.1015]"
+[16:19:39.380]  [T:0xefcfd] D: [ convertToRegexPatternAppVersion ] "[ GA4 ] OK            : RegexAppVerion Validate OK: [v1.1.0.1015]"
+[16:19:39.814]  [T:0xefcfd] D: AppScale.windowHeight: 1
+[16:19:48.704]  [T:0xefcfd] I: [ setAutoPivotThread ] AutoPivotWorkThread stopped
+[16:19:48.704]  [T:0xefcfd] D: Enter CMutuallySyncModule::Destroy()
+[16:19:48.705]  [T:0xefcfd] I: Enter FunctionKeyDetector::Destroy
+[16:19:48.705]  [T:0xefcfd] I: Exit FunctionKeyDetector::Destroy
+[16:19:48.706]  [T:0xefcfd] I: Enter CMutuallySyncModule::Stop()
+[16:19:48.706]  [T:0xefcfd] I: Enter CMutuallySyncModule::StopBrightnessSync, is_brightness_sync_running_ =  true
+[16:19:48.786]  [T:0xefcfd] I: Exit CMutuallySyncModule::StopBrightnessSync
+[16:19:48.787]  [T:0xefcfd] I: Enter CMutuallySyncModule::StopVolumeSync
+[16:19:48.787]  [T:0xefcfd] I: Enter VolumeSync::Destroy()
+[16:19:48.788]  [T:0xefcfd] I: Exit VolumeSync::Destroy()
+[16:19:48.788]  [T:0xefcfd] I: Exit CMutuallySyncModule::StopVolumeSync
+[16:19:48.788]  [T:0xefcfd] I: Exit CMutuallySyncModule::Stop()
+[16:19:48.788]  [T:0xefcfd] D: Exit CMutuallySyncModule::Destroy()
+[16:19:48.789]  [T:0xefcfd] I: [ CleanOldLogs ] Clean logs
