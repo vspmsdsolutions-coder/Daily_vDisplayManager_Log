@@ -1,0 +1,120 @@
+===== System Information =====
+Time: 2025-10-15T12:37:14.383
+App: vDisplayManager
+App Version: 3.1.3.2
+Qt Version: 6.5.2
+OS: Windows 11 Version 24H2
+CPU Arch: x86_64
+Screen[0] Name: \\.\DISPLAY1
+Screen[0] Size: 1920 x 1080 px
+Screen[0] DPI: 120
+Screen[0] Physical Size: 344mm x 194mm
+Screen[1] Name: VP2458 (1)
+Screen[1] Size: 2400 x 1350 px
+Screen[1] DPI: 120
+Screen[1] Physical Size: 527mm x 296mm
+==============================
+[12:37:14.383]  [T:0x165de] I: [ CAppRunningNotifier::initialize ] CAppRunningNotifier server is running
+[12:37:14.383]  [T:0x165de] D: [LanguageManager] initSystemLanguage: loaded "en_US"
+[12:37:15.326]  [T:0x165de] I: [ CVsAiSensorManagerPrivate::CVsAiSensorManagerPrivate ] VsAiSensor version: "1.0.8.0"
+[12:37:15.354]  [T:0x165de] I: [ CConfigModulePrivate::importConfig ] "userConfigPath:C:/Users/judi-/AppData/Local/vDisplay Manager"
+[12:37:15.366]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::CatchMonitors
+[12:37:15.618]  [T:0x165de] I: [ CConnectDisplayControlEntry::init ] Initialize DisplayControl
+[12:37:15.791]  [T:0x165de] D: modelName =  "VP2458"
+[12:37:15.791]  [T:0x165de] D: modelName =  "VP2458"
+[12:37:15.791]  [T:0x165de] W: [ CMonitorInfoAdaptor::catchMonitors ] Failed to catch monitor, Monitor map is empty
+[12:37:15.791]  [T:0x165de] W: [ CDisplayManagerAgentPrivate::dataTypeGuard ] "catchMonitorsStrategy Output:" Data type is wrong QVariant(int, 0)
+[12:37:15.791]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::SaveDataAfterCatchMonitors
+[12:37:15.791]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::SetMonitorIndexConvertMap
+[12:37:15.791]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::SetRealAndQMLMonitorIndexInitial
+[12:37:15.791]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::SetInitialInputSelectToAuto
+[12:37:15.791]  [T:0x165de] W: [ CDisplayManagerPrivate::catchMonitors ] Failed to catch monitors
+[12:37:15.791]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::SyncAllMonitorsPollingMaxTimer5Sec
+[12:37:15.800]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorModelMap
+[12:37:15.800]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::CheckXORRules
+[12:37:15.800]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::AllMonitorVCPXORMap
+[12:37:15.800]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::ALLMonitorVCPOptionMap
+[12:37:15.800]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorModelMap
+[12:37:15.800]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::MonitorIndexConvertMap
+[12:37:15.800]  [T:0x165de] W: [ CDisplayManager::getMonitorConvertMap ] Failed to convert data QVariant(int, 0)
+[12:37:15.800]  [T:0x165de] I: [ CAutoScreenPivotModule::initializeAutoScreenPivot ] connectedMonitorSet:  QSet()
+[12:37:15.800]  [T:0x165de] I: [ CAutoScreenPivotModule::initializeAutoScreenPivot ] mAutoMonitorSet:  QSet()
+[12:37:15.800]  [T:0x165de] I: [ CWinScreenChangeEventHandler::RecordPrimaryTarget ] Recorded primary adapterIdKey: 73004  targetId: 4352
+[12:37:15.800]  [T:0x165de] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial monitor count: 3
+[12:37:15.800]  [T:0x165de] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial projection mode: 0
+[12:37:15.800]  [T:0x165de] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial primary adapterIdKey: 73004
+[12:37:15.800]  [T:0x165de] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial primary targetId: 4352
+[12:37:15.800]  [T:0x165de] I: [ CSystemEventEntry::registerSystemEventAndCallBack::<lambda_1>::operator () ] Register DisplayChangeEventHandler and set callback function
+[12:37:15.800]  [T:0x165de] I: [ CQJsonHandler::getValue ] No such key in JSON object:  std::vector("focused_attention", "enable")
+[12:37:15.800]  [T:0x165de] I: [ CVsAiSensorManager::setCConfigModule ] mEnableDetect from config: false
+[12:37:18.183]  [T:0x165de] W: qrc:/Resources/VDM/VDMSettingBar.qml:162:13: QML Rectangle: Binding loop detected for property "width"
+[12:37:18.893]  [T:0x165de] D: intellgenceCondition: false
+[12:37:18.897]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:18.897]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::GetColortemeratureInfoHasNotSupportByModelName
+[12:37:18.988]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:18.996]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:18.996]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:18.996]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::IsVCPInMonitor
+[12:37:18.996]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentRealMonitorIndex
+[12:37:18.996]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:18.996]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:18.996]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::IsVCPInMonitor
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentRealMonitorIndex
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::IsVCPInMonitor
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentRealMonitorIndex
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::IsVCPInMonitor
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentRealMonitorIndex
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.003]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.015]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.015]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::IsVCPInMonitor
+[12:37:19.015]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentRealMonitorIndex
+[12:37:19.015]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.019]  [T:0x165de] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Display Application
+[12:37:19.019]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.019]  [T:0x165de] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[12:37:19.019]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.057]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.057]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::IsVCPInMonitor
+[12:37:19.057]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentRealMonitorIndex QVariant(Invalid)
+[12:37:19.057]  [T:0x165de] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Input Selection
+[12:37:19.057]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.057]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.057]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::IsVCPInMonitor
+[12:37:19.057]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentRealMonitorIndex QVariant(Invalid)
+[12:37:19.109]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.109]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.130]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.146]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.146]  [T:0x165de] W: [VDMCustomComboBox] SKIP updateUI: desc="", object=MonitorSelectCombo
+[12:37:19.146]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.146]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::GetBatteryInfoSupportByModelName
+[12:37:19.146]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::GetIntelligentSensingSupportByModelName
+[12:37:19.146]  [T:0x165de] D: isSupportAIMode:false
+[12:37:19.146]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.146]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::GetBatteryInfoSupportByModelName
+[12:37:19.146]  [T:0x165de] I: [ CDisplayManagerAgentPrivate::processStrategy ] CDisplayStrategyInfo::DisplayStrategy::GetIntelligentSensingSupportByModelName
+[12:37:19.146]  [T:0x165de] D: isSupportAIMode:false
+[12:37:19.146]  [T:0x165de] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[12:37:19.146]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.146]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.146]  [T:0x165de] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[12:37:19.146]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.146]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.157]  [T:0x165de] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[12:37:19.157]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.157]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.160]  [T:0x165de] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[12:37:19.160]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.162]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.162]  [T:0x165de] D: [VDMCustomSlider] updateUI OK, description = Volume
+[12:37:19.162]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.162]  [T:0x165de] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::CurrentModel
+[12:37:19.162]  [T:0x165de] W: [ CDisplayModule::getMute ] No monitors catched, but getVCPValue
