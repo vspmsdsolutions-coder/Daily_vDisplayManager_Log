@@ -1,0 +1,170 @@
+===== System Information =====
+Time: 2025-10-29T05:01:38.544
+App: vDisplayManager
+App Version: 3.2.0.1029
+Qt Version: 6.5.2
+OS: Windows 11 Version 23H2
+CPU Arch: x86_64
+Screen[0] Name: VG2458
+Screen[0] Size: 1920 x 1080 px
+Screen[0] DPI: 96
+Screen[0] Physical Size: 527mm x 296mm
+Screen[1] Name: VG275
+Screen[1] Size: 1920 x 1080 px
+Screen[1] DPI: 96
+Screen[1] Physical Size: 598mm x 336mm
+==============================
+[05:01:38.544]  [T:0x915a2] I: [ CAppRunningNotifier::initialize ] CAppRunningNotifier server is running
+[05:01:38.544]  [T:0x915a2] D: [LanguageManager] initSystemLanguage: loaded "en_US"
+[05:01:38.559]  [T:0x915a2] I: [ VDMControllerFactory::loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-Regular.ttf" -> families: "Inter"
+[05:01:38.559]  [T:0x915a2] I: [ VDMControllerFactory::loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-Medium.ttf" -> families: "Inter Medium"
+[05:01:38.559]  [T:0x915a2] I: [ VDMControllerFactory::loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-SemiBold.ttf" -> families: "Inter SemiBold"
+[05:01:38.795]  [T:0x915a2] I: [ CVsAiSensorManager::CVsAiSensorManager ] VsAiSensor version: "1.0.8.0"
+[05:01:38.833]  [T:0x915a2] I: [ CConfigModule::importConfig ] "userConfigPath:C:/Users/user/AppData/Local/vDisplay Manager"
+[05:01:38.967]  [T:0x915a2] I: [ CConnectDisplayControlEntry::init ] Initialize DisplayControl
+[05:01:39.046]  [T:0x915a2] D: modelName =  "VG2458"
+[05:01:39.470]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Monitor index:  0 / SN: "YDJ243400006" / Model Name: "VG2458"
+[05:01:39.470]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Monitor position: 0 / Monitor position y: 0
+[05:01:39.486]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Resolution is: 1920  *  1080
+[05:01:39.486]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Firmware version is: "M003"
+[05:01:39.486]  [T:0x915a2] D: modelName =  "VG275"
+[05:01:39.957]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Monitor index:  1 / SN: "XF6232400003" / Model Name: "VG275"
+[05:01:39.957]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Monitor position: 1920 / Monitor position y: 2
+[05:01:39.957]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Resolution is: 1920  *  1080
+[05:01:39.957]  [T:0x915a2] I: [ CMonitorInfoAdaptor::catchMonitors ] Firmware version is: "M001"
+[05:01:40.146]  [T:0x915a2] I: [ CVCPAdaptor::setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: On"
+[05:01:40.365]  [T:0x915a2] I: [ CVCPAdaptor::setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: On"
+[05:01:40.365]  [T:0x915a2] I: [ CDisplayManagerAgent::syncMonitorsAction ] Sync monitor:  "VG2458"
+[05:01:40.475]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Sharpness" VCP value is  2
+[05:01:40.663]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Input Selection" VCP value is  15 VCP option name: "DisplayPort 1 (DisplayPort)"
+[05:01:40.898]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Audio Mute" VCP value is  2 VCP option name: "Un-Mute the audio"
+[05:01:41.138]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Energy Saving" VCP value is  2 VCP option name: "Energy Saving On"
+[05:01:41.339]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Power Indicator" VCP value is  2 VCP option name: "On"
+[05:01:41.526]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Restore Factory Defaults" VCP value is  0
+[05:01:41.714]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Display Application" VCP value is  0 VCP option name: "Off"
+[05:01:41.940]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Contrast" VCP value is  70
+[05:01:42.155]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Volume" VCP value is  70
+[05:01:42.390]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Brightness" VCP value is  70
+[05:01:42.609]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Signal Source List" VCP value is  16384
+[05:01:42.845]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Advanced DCR" VCP value is  0 VCP option name: "Advanced DCR Off"
+[05:01:43.080]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Color Temperature" VCP value is  5 VCP option name: "Native"
+[05:01:43.316]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Video Signal Auto Detect" VCP value is  2 VCP option name: "On"
+[05:01:43.441]  [T:0x915a2] I: [ CDisplayManagerAgent::syncMonitorsAction ] Sync monitor:  "VG275"
+[05:01:43.536]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Sharpness" VCP value is  2
+[05:01:43.771]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Input Selection" VCP value is  17 VCP option name: "Digital Video (TMDS) 3 HDMI 1"
+[05:01:44.006]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Audio Mute" VCP value is  2 VCP option name: "Un-Mute the audio"
+[05:01:44.226]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Power Indicator" VCP value is  2 VCP option name: "On"
+[05:01:44.461]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Restore Factory Defaults" VCP value is  0
+[05:01:44.719]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Display Application" VCP value is  0 VCP option name: "Off"
+[05:01:44.948]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Contrast" VCP value is  70
+[05:01:45.184]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Volume" VCP value is  70
+[05:01:45.388]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Brightness" VCP value is  80
+[05:01:45.623]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Signal Source List" VCP value is  0
+[05:01:45.843]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Advanced DCR" VCP value is  0 VCP option name: "Advanced DCR Off"
+[05:01:46.095]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Battery Information" VCP value is  65535
+[05:01:46.299]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Blue Light Filter" VCP value is  0
+[05:01:46.502]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Video Signal Auto Detect" VCP value is  2 VCP option name: "On"
+[05:01:46.612]  [T:0x915a2] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::AllMonitorVCPXORMap
+[05:01:46.612]  [T:0x915a2] W: [ CDisplayDatabaseKeeper::getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::ALLMonitorVCPOptionMap
+[05:01:46.612]  [T:0x915a2] I: [ CAutoScreenPivotModule::initializeAutoScreenPivot ] connectedMonitorSet:  QSet("VG2458,YDJ243400006", "VG275,XF6232400003")
+[05:01:46.612]  [T:0x915a2] I: [ CAutoScreenPivotModule::initializeAutoScreenPivot ] mAutoMonitorSet:  QSet()
+[05:01:46.612]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::registerDeviceNotification ] Device notification registered successfully
+[05:01:46.612]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::RecordPrimaryTarget ] Recorded primary adapterIdKey: 42346  targetId: 4354
+[05:01:46.612]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::GetPhysicalMonitorCount ] Monitor  0 :  0x19f3cc
+[05:01:46.612]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::GetPhysicalMonitorCount ] Monitor  1 :  0x19f3cc
+[05:01:46.628]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial monitor count: 2
+[05:01:46.628]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial projection mode: 0
+[05:01:46.628]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial primary adapterIdKey: 42346
+[05:01:46.628]  [T:0x915a2] I: [ CWinScreenChangeEventHandler::CWinScreenChangeEventHandler ] Initial primary targetId: 4354
+[05:01:46.628]  [T:0x915a2] I: [ CSystemEventEntry::registerSystemEventAndCallBack::<lambda_1>::operator () ] Register DisplayChangeEventHandler and set callback function
+[05:01:46.628]  [T:0x915a2] I: [ CQJsonHandler::getValue ] No such key in JSON object:  std::vector("focused_attention", "enable")
+[05:01:46.628]  [T:0x915a2] I: [ CVsAiSensorManager::setCConfigModule ] mEnableDetect from config: false
+[05:01:46.628]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternAppVersion ] "[ GA4 ] Error         : RegexAppVerion Validate FAIL - Invalid format: [3.2.0.1029]"
+[05:01:46.628]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternAppVersion ] "[ GA4 ] OK            : RegexAppVerion Validate OK: [v3.2.0.1029]"
+[05:01:46.722]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Input Selection" VCP value is  15 VCP option name: "DisplayPort 1 (DisplayPort)"
+[05:01:46.832]  [T:0x915a2] I: [ CVCPAdaptor::getVCPValue ] VCP Description is  "Input Selection" VCP value is  17 VCP option name: "Digital Video (TMDS) 3 HDMI 1"
+[05:01:46.832]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [DisplayPort 1 (DisplayPort)]"
+[05:01:46.832]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DisplayPort1DisplayPort]"
+[05:01:46.832]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.832]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.832]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.832]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"app_open\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"app_version\": \"v3.2.0.1029\",\n                \"connected_monitor\": \"VG2458\",\n                \"video_port\": \"DisplayPort1DisplayPort\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"select_monitor\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"monitor_model\": \"VG2458\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [DisplayPort 1 (DisplayPort)]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DisplayPort1DisplayPort]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"auto_input_source\": \"on\",\n                \"manual_input_source\": \"DisplayPort1DisplayPort\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"auto_pivot\": \"off\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Off]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [Off]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"view_mode\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"view_mode\": \"Off\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Native]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [Native]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"color_temperature\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"color_temperature\": \"Native\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"app_open\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"app_version\": \"v3.2.0.1029\",\n                \"connected_monitor\": \"VG275\",\n                \"video_port\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"select_monitor\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"monitor_model\": \"VG275\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"auto_input_source\": \"on\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"auto_pivot\": \"off\"\n            }\n        }\n    ]\n}\n"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Off]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [Off]"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Client ID     : "d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483"
+[05:01:46.926]  [T:0x915a2] D: [ CGA4Tracker::logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"d5c0305e921bbe17139a3e3c2079d68ae566a049e8b820e25382043470e0c483\",\n    \"events\": [\n        {\n            \"name\": \"view_mode\",\n            \"params\": {\n                \"OS_version\": \"Win\",\n                \"view_mode\": \"Off\"\n            }\n        }\n    ]\n}\n"
+[05:01:47.131]  [T:0x915a2] W: QQmlApplicationEngine failed to load component
+[05:01:47.131]  [T:0x915a2] W: qrc:/Resources/VDM/main.qml:329:21: Type VDMCardItem unavailable
+[05:01:47.131]  [T:0x915a2] W: qrc:/Resources/VDM/VDMCardItem.qml:116:13: Type VDMSwitchButton unavailable
+[05:01:47.131]  [T:0x915a2] W: qrc:/Resources/VDM/VDMSwitchButton.qml:10:12: Duplicate signal name: invalid override of property change signal or superclass signal
+[05:01:47.131]  [T:0x915a2] W: Failed to load QML!
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [view_mode] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [view_mode] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [select_monitor] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [color_temperature] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [select_monitor] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [app_open] sent successfully. Response: "
+[05:01:47.209]  [T:0x915a2] D: [ CGA4Tracker::sendCustomEvent::<lambda_1>::operator () ] "[ GA4 ] OK            : GA4 event [app_open] sent successfully. Response: "
