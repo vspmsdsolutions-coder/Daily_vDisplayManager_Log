@@ -1,0 +1,778 @@
+===== System Information =====
+Time: 2025-10-31T05:01:34.110
+App: vDisplayManager
+App Version: 3.2.0.1031
+Qt Version: 6.5.3
+OS: macOS 15.4
+CPU Arch: arm64
+Screen[0] Name: Built-in Retina Display
+Screen[0] Size: 1800 x 1169 px
+Screen[0] DPI: 72
+Screen[0] Physical Size: 300.789mm x 195.346mm
+Screen[1] Name: VG2748a
+Screen[1] Size: 1920 x 1080 px
+Screen[1] DPI: 72
+Screen[1] Physical Size: 602.074mm x 338.667mm
+==============================
+[05:01:34.110]  [T:0x00e62] I: [ initialize ] CAppRunningNotifier server is running
+[05:01:34.110]  [T:0x00e62] D: [LanguageManager] initSystemLanguage: loaded "en_US"
+[05:01:34.530]  [T:0x00e62] I: [ loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-Regular.ttf" -> families: "Inter"
+[05:01:34.531]  [T:0x00e62] I: [ loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-Medium.ttf" -> families: "Inter"
+[05:01:34.533]  [T:0x00e62] I: [ loadGoogleInterFonts ] [Font] Loaded: ":/Resources/fonts/Inter-SemiBold.ttf" -> families: "Inter"
+[05:01:34.961]  [T:0x00e62] I: [ CVsAiSensorManager ] VsAiSensor version: "1.0.8.0"
+[05:01:34.981]  [T:0x00e62] I: [ importConfig ] "userConfigPath:/Users/pmsd/Library/Application Support/vDisplay Manager"
+[05:01:35.421]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:01:36.675]  [T:0x00e62] D: modelName =  "VG2748a"
+[05:01:37.436]  [T:0x00e62] I: [ catchMonitors ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:01:37.436]  [T:0x00e62] I: [ catchMonitors ] Monitor position: 1800 / Monitor position y: 0
+[05:01:37.437]  [T:0x00e62] I: [ catchMonitors ] Resolution is: 1920  *  1080
+[05:01:37.437]  [T:0x00e62] I: [ catchMonitors ] Firmware version is: "M001"
+[05:01:38.903]  [T:0x00e62] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: On"
+[05:01:38.903]  [T:0x00e62] I: [ syncMonitorsAction ] Sync monitor:  "VG2748a"
+[05:01:39.123]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Signal Source List" VCP value is  16385
+[05:01:39.443]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Sharpness" VCP value is  2
+[05:01:39.767]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Advanced DCR" VCP value is  0 VCP option name: "Advanced DCR Off"
+[05:01:40.094]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Battery Information" VCP value is  65535
+[05:01:40.418]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Brightness" VCP value is  90
+[05:01:40.737]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Blue Light Filter" VCP value is  0
+[05:01:41.057]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Audio Mute" VCP value is  2 VCP option name: "Un-Mute the audio"
+[05:01:41.378]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Input Selection" VCP value is  17 VCP option name: "Digital Video (TMDS) 3 HDMI 1"
+[05:01:41.701]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Contrast" VCP value is  70
+[05:01:42.020]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Display Application" VCP value is  0 VCP option name: "Off"
+[05:01:42.344]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Video Signal Auto Detect" VCP value is  2 VCP option name: "On"
+[05:01:42.660]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Volume" VCP value is  50
+[05:01:42.978]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Power Indicator" VCP value is  2 VCP option name: "On"
+[05:01:43.297]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Restore Factory Defaults" VCP value is  0
+[05:01:43.399]  [T:0x00e62] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::AllMonitorVCPXORMap
+[05:01:43.399]  [T:0x00e62] W: [ getData ] Failed to get data, data is empty CDisplayDatabaseCommand::DisplayDatabaseElements::ALLMonitorVCPOptionMap
+[05:01:43.399]  [T:0x00e62] I: [ initializeAutoScreenPivot ] connectedMonitorSet:  QSet("VG2748a,WTJ242500000")
+[05:01:43.399]  [T:0x00e62] I: [ initializeAutoScreenPivot ] mAutoMonitorSet:  QSet()
+[05:01:43.399]  [T:0x00e62] I: [ operator() ] Register DisplayChangeEventHandler and set callback function
+[05:01:43.399]  [T:0x00e62] I: [ CMacWakeUpEventHandler ] Successful creation of WakeUp Event Handler
+[05:01:43.401]  [T:0x00e62] I: [ getValue ] No such key in JSON object:  std::vector("focused_attention", "enable")
+[05:01:43.401]  [T:0x00e62] I: [ setCConfigModule ] mEnableDetect from config: false
+[05:01:43.401]  [T:0x00e62] D: [ convertToRegexPatternAppVersion ] "[ GA4 ] Error         : RegexAppVerion Validate FAIL - Invalid format: [3.2.0.1031]"
+[05:01:43.401]  [T:0x00e62] D: [ convertToRegexPatternAppVersion ] "[ GA4 ] OK            : RegexAppVerion Validate OK: [v3.2.0.1031]"
+[05:01:43.619]  [T:0x00e62] I: [ getVCPValue ] VCP Description is  "Input Selection" VCP value is  17 VCP option name: "Digital Video (TMDS) 3 HDMI 1"
+[05:01:43.620]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:01:43.620]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:01:43.621]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:43.621]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:43.621]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:01:43.621]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"app_open\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"app_version\": \"v3.2.0.1031\",\n                \"connected_monitor\": \"VG2748a\",\n                \"video_port\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:01:43.885]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:43.885]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:43.885]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:01:43.885]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"select_monitor\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"monitor_model\": \"VG2748a\"\n            }\n        }\n    ]\n}\n"
+[05:01:43.885]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:01:43.885]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:01:43.885]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_input_source\": \"on\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\"\n            }\n        }\n    ]\n}\n"
+[05:01:43.886]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Off]"
+[05:01:43.886]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [Off]"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:01:43.886]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"view_mode\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"view_mode\": \"Off\"\n            }\n        }\n    ]\n}\n"
+[05:01:44.371]  [T:0x00e62] D: AppScale.scaleFactor: 1
+[05:01:44.371]  [T:0x00e62] D: AppScale.windowHeight: 787
+[05:01:44.471]  [T:0x00e62] W: Layer-backing is always enabled.  QT_MAC_WANTS_LAYER/_q_mac_wantsLayer has no effect.
+[05:01:44.476]  [T:0x00e62] D: intellgenceCondition: false
+[05:01:44.476]  [T:0x00e62] D: Width: 1000
+[05:01:44.476]  [T:0x00e62] D: Height: 787
+[05:01:44.476]  [T:0x00e62] D: Minimum Width: 1000
+[05:01:44.476]  [T:0x00e62] D: Minimum Height: 787
+[05:01:44.476]  [T:0x00e62] D: _mainApplicationWindow.x: 400
+[05:01:44.476]  [T:0x00e62] D: _mainApplicationWindow.y: 170
+[05:01:44.481]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:01:44.481]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:01:44.481]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:01:44.481]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:01:44.481]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:01:44.481]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:01:44.657]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:01:44.657]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:01:44.657]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:01:44.658]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:01:44.658]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:01:44.736]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:01:44.736]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:01:44.736]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [select_monitor] sent successfully. Response: "
+[05:01:44.737]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [view_mode] sent successfully. Response: "
+[05:01:44.737]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [app_open] sent successfully. Response: "
+[05:01:44.799]  [T:0x34767] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: On"
+[05:01:44.803]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:01:44.803]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:01:44.803]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:01:44.804]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:01:44.804]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:01:44.804]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:01:44.804]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:01:44.804]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:01:44.804]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:01:44.804]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:01:44.804]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:01:45.068]  [T:0x00e62] D: isSupportAIMode:false
+[05:01:45.069]  [T:0x00e62] D: isSupportAIMode:false
+[05:02:10.907]  [T:0x34767] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: Off"
+[05:02:10.908]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:02:10.908]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:02:10.908]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:02:10.908]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:02:10.908]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:02:10.908]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:02:10.908]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:10.908]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:02:10.908]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:02:10.908]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:02:10.908]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:10.908]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:02:10.909]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:02:10.909]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:02:10.909]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:02:10.909]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:02:10.909]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_input_source\": \"off\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:02:10.917]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:02:41.007]  [T:0x00e62] I: [ setAutoPivotThread ] AutoPivotWorkThread stopped
+[05:02:42.756]  [T:0xf828b] I: [ setVCPValue ] "Set VCP Name: Restore Factory Defaults => 0x4, VCP value: 1"
+[05:02:47.862]  [T:0xf828b] I: [ waitForResetMonitorReady ] reset monitor is not connect : 0
+[05:02:47.863]  [T:0xf828b] I: [ init ] Initialize DisplayControl
+[05:02:49.272]  [T:0xf828b] I: [ syncMonitorsAction ] Sync monitor:  "VG2748a"
+[05:02:49.532]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Signal Source List" VCP value is  16385
+[05:02:49.841]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Sharpness" VCP value is  2
+[05:02:50.147]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Advanced DCR" VCP value is  0 VCP option name: "Advanced DCR Off"
+[05:02:50.454]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Battery Information" VCP value is  65535
+[05:02:50.769]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Brightness" VCP value is  90
+[05:02:51.074]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Blue Light Filter" VCP value is  0
+[05:02:51.382]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Audio Mute" VCP value is  2 VCP option name: "Un-Mute the audio"
+[05:02:51.686]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Input Selection" VCP value is  17 VCP option name: "Digital Video (TMDS) 3 HDMI 1"
+[05:02:51.997]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Contrast" VCP value is  70
+[05:02:52.307]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Display Application" VCP value is  0 VCP option name: "Off"
+[05:02:52.615]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Video Signal Auto Detect" VCP value is  2 VCP option name: "On"
+[05:02:52.919]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Volume" VCP value is  50
+[05:02:53.229]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Power Indicator" VCP value is  2 VCP option name: "On"
+[05:02:53.536]  [T:0xf828b] I: [ getVCPValue ] VCP Description is  "Restore Factory Defaults" VCP value is  0
+[05:02:53.641]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:02:53.641]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:02:53.642]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:02:53.642]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:02:53.642]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:02:53.642]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:02:53.642]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:53.642]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:02:53.642]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:02:53.642]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:02:53.642]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:53.953]  [T:0xf828b] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: On"
+[05:02:53.954]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:02:53.954]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:02:53.954]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:02:53.954]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:02:53.954]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:02:53.954]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:02:53.954]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:53.954]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:02:53.954]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:02:53.954]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:02:53.954]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:53.954]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:02:53.955]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:02:53.955]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:02:53.955]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:02:53.955]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:02:53.955]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_input_source\": \"on\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:02:54.218]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:02:54.219]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:02:54.219]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:02:54.220]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:02:54.220]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:02:54.220]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:02:54.220]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.220]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:02:54.221]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:02:54.221]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:02:54.221]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.221]  [T:0x00e62] D: intellgenceCondition: false
+[05:02:54.226]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:02:54.226]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.227]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:02:54.227]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:02:54.227]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:02:54.227]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.227]  [T:0x00e62] D: isSupportAIMode:false
+[05:02:54.227]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:02:54.227]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:02:54.227]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:02:54.228]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:02:54.228]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:02:54.228]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:02:54.228]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.228]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:02:54.228]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:02:54.228]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:02:54.228]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.483]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:02:54.484]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:02:54.484]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:02:54.485]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:02:54.485]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:02:54.485]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:02:54.485]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.486]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:02:54.486]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:02:54.486]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:02:54.486]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:02:54.486]  [T:0x00e62] D: intellgenceCondition: false
+[05:02:54.488]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:02:54.488]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:02:54.488]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:02:54.488]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:02:54.489]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:02:54.495]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:03:46.707]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:03:46.707]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:03:46.707]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:03:46.707]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"brightness\": 1\n            }\n        }\n    ]\n}\n"
+[05:03:46.716]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:03:46.809]  [T:0x79312] I: SoftwareDimming is on, software_dimming_value =  0
+[05:03:47.124]  [T:0x79312] I: [ setVCPValue ] "Set VCP Name: Brightness => 0x10, VCP value: 0"
+[05:03:47.124]  [T:0x79312] I: [Write DB VCPValue] "90" Value =  "0"
+[05:03:47.125]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:03:47.125]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:03:47.125]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:03:47.125]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:03:47.125]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:03:47.125]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:03:47.125]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:03:47.125]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:03:47.125]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:03:47.125]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:03:47.126]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:04:08.012]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:04:08.014]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:04:08.014]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:04:08.014]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"contrast\": 1\n            }\n        }\n    ]\n}\n"
+[05:04:08.022]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:04:08.435]  [T:0x79312] I: [ setVCPValue ] "Set VCP Name: Contrast => 0x12, VCP value: 0"
+[05:04:08.435]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:04:08.435]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:04:08.435]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:04:08.436]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:04:08.436]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:04:08.436]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:04:08.436]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:04:08.436]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:04:08.436]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:04:08.436]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:04:08.436]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:05:32.013]  [T:0x44866] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: Off"
+[05:05:32.014]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:05:32.015]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:05:32.015]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:05:32.015]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:05:32.015]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:05:32.015]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:05:32.015]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:05:32.015]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:05:32.015]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:05:32.015]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:05:32.015]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:05:32.015]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:05:32.015]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:05:32.015]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:05:32.015]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:05:32.015]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:05:32.015]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_input_source\": \"off\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:05:32.024]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:06:02.203]  [T:0x00e62] I: [ setAutoPivotThread ] AutoPivotWorkThread stopped
+[05:06:03.956]  [T:0x44866] I: [ setVCPValue ] "Set VCP Name: Restore Factory Defaults => 0x4, VCP value: 1"
+[05:06:09.059]  [T:0x44866] I: [ waitForResetMonitorReady ] reset monitor is not connect : 0
+[05:06:09.060]  [T:0x44866] I: [ init ] Initialize DisplayControl
+[05:06:10.469]  [T:0x44866] I: [ syncMonitorsAction ] Sync monitor:  "VG2748a"
+[05:06:10.728]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Signal Source List" VCP value is  16385
+[05:06:11.036]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Sharpness" VCP value is  2
+[05:06:11.342]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Advanced DCR" VCP value is  0 VCP option name: "Advanced DCR Off"
+[05:06:11.648]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Battery Information" VCP value is  65535
+[05:06:11.956]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Brightness" VCP value is  90
+[05:06:12.259]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Blue Light Filter" VCP value is  0
+[05:06:12.565]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Audio Mute" VCP value is  2 VCP option name: "Un-Mute the audio"
+[05:06:12.871]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Input Selection" VCP value is  17 VCP option name: "Digital Video (TMDS) 3 HDMI 1"
+[05:06:13.178]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Contrast" VCP value is  70
+[05:06:13.484]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Display Application" VCP value is  0 VCP option name: "Off"
+[05:06:13.789]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Video Signal Auto Detect" VCP value is  2 VCP option name: "On"
+[05:06:14.095]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Volume" VCP value is  50
+[05:06:14.398]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Power Indicator" VCP value is  2 VCP option name: "On"
+[05:06:14.710]  [T:0x44866] I: [ getVCPValue ] VCP Description is  "Restore Factory Defaults" VCP value is  0
+[05:06:14.811]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:06:14.812]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:06:14.812]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:06:14.812]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:06:14.812]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:06:14.812]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:06:14.812]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:14.812]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:06:14.812]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:06:14.813]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:06:14.813]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.121]  [T:0x44866] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: On"
+[05:06:15.121]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:06:15.121]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:06:15.121]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:06:15.121]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:06:15.121]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:06:15.121]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:06:15.121]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.121]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:06:15.121]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:06:15.121]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:06:15.121]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.122]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:06:15.122]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:06:15.122]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:06:15.122]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:06:15.122]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:06:15.122]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_input_source\": \"on\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:06:15.382]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:06:15.382]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:06:15.383]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:06:15.383]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:06:15.383]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:06:15.384]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:06:15.384]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.384]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:06:15.384]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:06:15.385]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:06:15.385]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.385]  [T:0x00e62] D: intellgenceCondition: false
+[05:06:15.391]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:06:15.391]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.391]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:06:15.391]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:06:15.391]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:06:15.391]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.391]  [T:0x00e62] D: isSupportAIMode:false
+[05:06:15.391]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:06:15.392]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:06:15.392]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:06:15.392]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:06:15.392]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:06:15.392]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:06:15.392]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.392]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:06:15.393]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:06:15.393]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:06:15.393]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.645]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:06:15.645]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:06:15.646]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:06:15.646]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:06:15.646]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:06:15.647]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:06:15.647]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.647]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:06:15.647]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:06:15.647]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:06:15.647]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:06:15.648]  [T:0x00e62] D: intellgenceCondition: false
+[05:06:15.649]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:06:15.649]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:06:15.650]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:06:15.650]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:06:15.650]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:06:15.656]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:08:23.178]  [T:0x44866] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: Off"
+[05:08:23.178]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:08:23.178]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:08:23.178]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:08:23.178]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:08:23.178]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:08:23.178]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:08:23.178]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:08:23.178]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:08:23.179]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:08:23.179]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:08:23.179]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:08:23.179]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:08:23.179]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:08:23.179]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:08:23.179]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:08:23.179]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:08:23.179]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_input_source\": \"off\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:08:23.238]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:11:38.560]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:11:38.561]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:11:38.561]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:11:38.561]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\",\n                \"pivot_angle\": -90\n            }\n        }\n    ]\n}\n"
+[05:11:38.561]  [T:0x00e62] D: [ VDMScreenPivotButton.qml::_selfMouseArea::onClicked ] Enter click screen pivot, rotation: -90
+[05:11:38.637]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:11:38.790]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:11:39.998]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  0 / SN: "" / Model Name: ""
+[05:11:39.998]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 0 / Monitor position y: 0
+[05:11:39.998]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: -1759893924  *  1452682752
+[05:11:39.998]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:11:39.999]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 1800 / Monitor position y: 0
+[05:11:39.999]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: 1920  *  1080
+[05:12:47.648]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:12:47.649]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:12:47.649]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:12:47.649]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\",\n                \"pivot_angle\": 90\n            }\n        }\n    ]\n}\n"
+[05:12:47.649]  [T:0x00e62] D: [ VDMScreenPivotButton.qml::_selfMouseArea::onClicked ] Enter click screen pivot, rotation: 90
+[05:12:47.672]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:12:47.816]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:12:49.024]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  0 / SN: "" / Model Name: ""
+[05:12:49.024]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 0 / Monitor position y: 0
+[05:12:49.024]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: -1759893924  *  897617408
+[05:12:49.025]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:12:49.025]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 1800 / Monitor position y: 0
+[05:12:49.025]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: 1920  *  1080
+[05:14:21.815]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:14:21.815]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:14:21.815]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:14:21.815]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\",\n                \"pivot_angle\": 90\n            }\n        }\n    ]\n}\n"
+[05:14:21.815]  [T:0x00e62] D: [ VDMScreenPivotButton.qml::_selfMouseArea::onClicked ] Enter click screen pivot, rotation: 90
+[05:14:21.840]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:14:21.982]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:14:23.198]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  0 / SN: "" / Model Name: ""
+[05:14:23.199]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 0 / Monitor position y: 0
+[05:14:23.199]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: -1759893924  *  906069504
+[05:14:23.199]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:14:23.199]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 1800 / Monitor position y: 0
+[05:14:23.199]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: 1920  *  1080
+[05:15:46.519]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:15:46.520]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:15:46.520]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:15:46.520]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\",\n                \"pivot_angle\": 0\n            }\n        }\n    ]\n}\n"
+[05:15:46.520]  [T:0x00e62] D: [ VDMScreenPivotButton.qml::_selfMouseArea::onClicked ] Enter click screen pivot, rotation: 0
+[05:15:46.530]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:15:46.895]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:15:48.115]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  0 / SN: "" / Model Name: ""
+[05:15:48.116]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 0 / Monitor position y: 0
+[05:15:48.116]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: -1759893924  *  621032960
+[05:15:48.116]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:15:48.116]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 1800 / Monitor position y: 0
+[05:15:48.116]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: 1920  *  1080
+[05:17:20.787]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:17:20.787]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:17:20.787]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:17:20.787]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\",\n                \"pivot_angle\": -90\n            }\n        }\n    ]\n}\n"
+[05:17:20.787]  [T:0x00e62] D: [ VDMScreenPivotButton.qml::_selfMouseArea::onClicked ] Enter click screen pivot, rotation: -90
+[05:17:20.813]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:17:20.949]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:17:22.156]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  0 / SN: "" / Model Name: ""
+[05:17:22.156]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 0 / Monitor position y: 0
+[05:17:22.157]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: -1759893924  *  897617408
+[05:17:22.157]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:17:22.157]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 1800 / Monitor position y: 0
+[05:17:22.157]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: 1920  *  1080
+[05:18:54.769]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:18:54.770]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:18:54.770]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:18:54.770]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\",\n                \"pivot_angle\": -90\n            }\n        }\n    ]\n}\n"
+[05:18:54.770]  [T:0x00e62] D: [ VDMScreenPivotButton.qml::_selfMouseArea::onClicked ] Enter click screen pivot, rotation: -90
+[05:18:54.795]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:18:54.933]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:18:56.142]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  0 / SN: "" / Model Name: ""
+[05:18:56.142]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 0 / Monitor position y: 0
+[05:18:56.142]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: -1759893924  *  1436733440
+[05:18:56.142]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:18:56.142]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 1800 / Monitor position y: 0
+[05:18:56.142]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: 1920  *  1080
+[05:20:19.716]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:20:19.716]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:20:19.716]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:20:19.716]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"screen_pivot\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_pivot\": \"off\",\n                \"pivot_angle\": 0\n            }\n        }\n    ]\n}\n"
+[05:20:19.716]  [T:0x00e62] D: [ VDMScreenPivotButton.qml::_selfMouseArea::onClicked ] Enter click screen pivot, rotation: 0
+[05:20:19.726]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [screen_pivot] sent successfully. Response: "
+[05:20:20.075]  [T:0x00e62] I: [ init ] Initialize DisplayControl
+[05:20:21.293]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  0 / SN: "" / Model Name: ""
+[05:20:21.293]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 0 / Monitor position y: 0
+[05:20:21.293]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: -1759893924  *  897732096
+[05:20:21.293]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Monitor index:  1 / SN: "WTJ242500000" / Model Name: "VG2748a"
+[05:20:21.293]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync monitor position: 1800 / Monitor position y: 0
+[05:20:21.293]  [T:0x00e62] I: [ syncAllMonitorGeometry ] Sync Resolution: 1920  *  1080
+[05:22:11.303]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:22:11.303]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:22:11.304]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:22:11.304]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"brightness\": 1\n            }\n        }\n    ]\n}\n"
+[05:22:11.313]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:22:11.405]  [T:0x76264] I: SoftwareDimming is on, software_dimming_value =  0
+[05:22:11.720]  [T:0x76264] I: [ setVCPValue ] "Set VCP Name: Brightness => 0x10, VCP value: 0"
+[05:22:11.721]  [T:0x76264] I: [Write DB VCPValue] "90" Value =  "0"
+[05:22:11.721]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:22:11.721]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:22:11.721]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:22:11.722]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:22:11.722]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:22:11.722]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:22:11.722]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:22:11.722]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:22:11.722]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:22:11.722]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:22:11.722]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:23:04.215]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:23:04.216]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:23:04.216]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:23:04.216]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"brightness\": 1\n            }\n        }\n    ]\n}\n"
+[05:23:04.225]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:23:04.318]  [T:0x76264] I: SoftwareDimming is on, software_dimming_value =  100
+[05:23:04.630]  [T:0x76264] I: [ setVCPValue ] "Set VCP Name: Brightness => 0x10, VCP value: 100"
+[05:23:04.630]  [T:0x76264] I: [Write DB VCPValue] "0" Value =  "100"
+[05:23:04.631]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:23:04.631]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:23:04.631]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:23:04.631]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:23:04.631]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:23:04.631]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:23:04.631]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:23:04.631]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:23:04.631]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:23:04.632]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:23:04.632]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:23:56.931]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:23:56.932]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:23:56.932]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:23:56.932]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"contrast\": 1\n            }\n        }\n    ]\n}\n"
+[05:23:56.941]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:23:57.348]  [T:0x76264] I: [ setVCPValue ] "Set VCP Name: Contrast => 0x12, VCP value: 0"
+[05:23:57.349]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:23:57.349]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:23:57.349]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:23:57.349]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:23:57.349]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:23:57.349]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:23:57.349]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:23:57.349]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:23:57.349]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:23:57.349]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:23:57.349]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:24:47.356]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:24:47.356]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:24:47.356]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:24:47.356]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"contrast\": 1\n            }\n        }\n    ]\n}\n"
+[05:24:47.366]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:24:47.775]  [T:0x07935] I: [ setVCPValue ] "Set VCP Name: Contrast => 0x12, VCP value: 100"
+[05:24:47.775]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:24:47.775]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:24:47.775]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:24:47.776]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:24:47.776]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:24:47.776]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:24:47.776]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:24:47.776]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:24:47.776]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:24:47.776]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:24:47.776]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:25:37.777]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:25:37.777]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:25:37.777]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:25:37.778]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"sharpness\": 1\n            }\n        }\n    ]\n}\n"
+[05:25:37.788]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:25:38.198]  [T:0x07935] I: [ setVCPValue ] "Set VCP Name: Sharpness => 0x87, VCP value: 0"
+[05:25:38.198]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:25:38.198]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:25:38.198]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:25:38.198]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:25:38.198]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:25:38.198]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:25:38.198]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:25:38.198]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:25:38.198]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:25:38.198]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:25:38.198]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:26:28.284]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:26:28.284]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:26:28.284]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:26:28.284]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"sharpness\": 1\n            }\n        }\n    ]\n}\n"
+[05:26:28.294]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:26:28.698]  [T:0x07935] I: [ setVCPValue ] "Set VCP Name: Sharpness => 0x87, VCP value: 4"
+[05:26:28.698]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:26:28.698]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:26:28.698]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:26:28.698]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:26:28.699]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:26:28.699]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:26:28.699]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:26:28.699]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:26:28.699]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:26:28.699]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:26:28.699]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:28:09.215]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:28:09.215]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:28:09.215]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:28:09.215]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"blue_light_filter\": 1\n            }\n        }\n    ]\n}\n"
+[05:28:09.225]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:28:09.634]  [T:0x07935] I: [ setVCPValue ] "Set VCP Name: Blue Light Filter => 0xE2, VCP value: 100"
+[05:28:09.634]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:28:09.634]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:28:09.634]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:28:09.635]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:28:09.635]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:28:09.635]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:28:09.635]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:28:09.635]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:28:09.635]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:28:09.635]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:28:09.635]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:29:00.245]  [T:0x00e62] I: [ setVCPValue ] "Set VCP Name: Volume => 0x62, VCP value: "
+[05:29:00.666]  [T:0x07935] I: [ setVCPValue ] "Set VCP Name: Volume => 0x62, VCP value: 0"
+[05:29:00.666]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:29:00.666]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:29:00.666]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:29:00.666]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:29:00.666]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:29:00.666]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:29:00.666]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:29:00.666]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:29:00.666]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:29:00.667]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:29:00.667]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:29:50.557]  [T:0x00e62] I: [ setVCPValue ] "Set VCP Name: Volume => 0x62, VCP value: "
+[05:29:50.558]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:29:50.558]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:29:50.559]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:29:50.559]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"display_control\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"volume\": 1\n            }\n        }\n    ]\n}\n"
+[05:29:50.570]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [display_control] sent successfully. Response: "
+[05:29:50.977]  [T:0x07935] I: [ setVCPValue ] "Set VCP Name: Volume => 0x62, VCP value: 100"
+[05:29:50.977]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:29:50.977]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:29:50.977]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:29:50.978]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:29:50.978]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:29:50.978]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:29:50.978]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:29:50.978]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:29:50.978]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:29:50.978]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:29:50.978]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:08.081]  [T:0x07935] I: [ setVCPValue ] "Set VCP Name: Video Signal Auto Detect => 0x33, VCP value: On"
+[05:46:08.081]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:46:08.081]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:46:08.081]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:46:08.081]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:46:08.081]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:46:08.082]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:46:08.082]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:08.082]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:46:08.082]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:46:08.082]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:46:08.082]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:08.082]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Error         : RegexCommon Validate FAIL - Invalid format: [Digital Video (TMDS) 3 HDMI 1]"
+[05:46:08.082]  [T:0x00e62] D: [ convertToRegexPatternCommon ] "[ GA4 ] Fix           : Remove unmatch characters - format: [DigitalVideoTMDS3HDMI1]"
+[05:46:08.082]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Measurement ID: "G-KKDK7WGP01"
+[05:46:08.082]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] API Secret    : "fPUEw5twT0m0JCHyRiP-Ww"
+[05:46:08.082]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Client ID     : "b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088"
+[05:46:08.082]  [T:0x00e62] D: [ logJsonToFile ] [ GA4 ] Payload       :
+: "{\n    \"client_id\": \"b018b7099fc58c7beb053768e111032f2e57938d601230ca1d1c528f8d063088\",\n    \"events\": [\n        {\n            \"name\": \"input_source\",\n            \"params\": {\n                \"OS_version\": \"Mac\",\n                \"auto_input_source\": \"on\",\n                \"manual_input_source\": \"DigitalVideoTMDS3HDMI1\"\n            }\n        }\n    ]\n}\n"
+[05:46:08.232]  [T:0x00e62] D: [ operator() ] "[ GA4 ] OK            : GA4 event [input_source] sent successfully. Response: "
+[05:46:38.821]  [T:0x00e62] I: [ setAutoPivotThread ] AutoPivotWorkThread stopped
+[05:46:40.558]  [T:0x76264] I: [ setVCPValue ] "Set VCP Name: Restore Factory Defaults => 0x4, VCP value: 1"
+[05:46:45.661]  [T:0x76264] I: [ waitForResetMonitorReady ] reset monitor is not connect : 0
+[05:46:45.661]  [T:0x76264] I: [ init ] Initialize DisplayControl
+[05:46:47.068]  [T:0x76264] I: [ syncMonitorsAction ] Sync monitor:  "VG2748a"
+[05:46:47.323]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Signal Source List" VCP value is  16385
+[05:46:47.635]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Sharpness" VCP value is  2
+[05:46:47.944]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Advanced DCR" VCP value is  0 VCP option name: "Advanced DCR Off"
+[05:46:48.250]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Battery Information" VCP value is  65535
+[05:46:48.559]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Brightness" VCP value is  90
+[05:46:48.868]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Blue Light Filter" VCP value is  0
+[05:46:49.177]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Audio Mute" VCP value is  2 VCP option name: "Un-Mute the audio"
+[05:46:49.487]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Input Selection" VCP value is  17 VCP option name: "Digital Video (TMDS) 3 HDMI 1"
+[05:46:49.795]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Contrast" VCP value is  70
+[05:46:50.099]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Display Application" VCP value is  0 VCP option name: "Off"
+[05:46:50.412]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Video Signal Auto Detect" VCP value is  2 VCP option name: "On"
+[05:46:50.719]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Volume" VCP value is  50
+[05:46:51.032]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Power Indicator" VCP value is  2 VCP option name: "On"
+[05:46:51.341]  [T:0x76264] I: [ getVCPValue ] VCP Description is  "Restore Factory Defaults" VCP value is  0
+[05:46:51.441]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:46:51.441]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:46:51.442]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:46:51.442]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:46:51.442]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:46:51.442]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:46:51.442]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.442]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:46:51.442]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:46:51.442]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:46:51.442]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.645]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:46:51.645]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:46:51.646]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:46:51.646]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:46:51.646]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:46:51.646]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:46:51.646]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.646]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:46:51.646]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:46:51.646]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:46:51.647]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.647]  [T:0x00e62] D: intellgenceCondition: false
+[05:46:51.653]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:46:51.653]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.653]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:46:51.653]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:46:51.653]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:46:51.653]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.653]  [T:0x00e62] D: isSupportAIMode:false
+[05:46:51.653]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:46:51.653]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:46:51.653]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:46:51.654]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:46:51.654]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:46:51.654]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:46:51.654]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.654]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:46:51.654]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:46:51.654]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:46:51.654]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.912]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:46:51.913]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:46:51.913]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:46:51.913]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:46:51.914]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:46:51.914]  [T:0x00e62] W: [ getVCPValue ] No VCP value
+[05:46:51.914]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValue QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.914]  [T:0x00e62] W: [ getVCPValueByIndex ] Failed to get VCP value "Color Temperature" QVariant(int, 0)
+[05:46:51.914]  [T:0x00e62] W: [ VDMCustomComboBox.qml::_selfRectangle::updateUI() ], Get wrong vcp value, value is empty, description is: Color Temperature
+[05:46:51.914]  [T:0x00e62] W: [ getVCPValueByMonitorIndex ] No VCP value
+[05:46:51.914]  [T:0x00e62] W: [ getData ] Data type is wrong CDisplayDatabaseCommand::DisplayDatabaseElements::VCPValueByMonitorIndex QVariant(QVariantList, QList(QVariant(int, 0), QVariant(QString, "Color Temperature")))
+[05:46:51.915]  [T:0x00e62] D: intellgenceCondition: false
+[05:46:51.916]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Brightness
+[05:46:51.916]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Contrast
+[05:46:51.916]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Sharpness
+[05:46:51.916]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Blue Light Filter
+[05:46:51.917]  [T:0x00e62] D: [VDMCustomSlider] updateUI OK, description = Volume
+[05:47:27.057]  [T:0x00e62] I: [ setAutoPivotThread ] AutoPivotWorkThread stopped
+[05:47:27.060]  [T:0x00e62] I: [ CleanOldLogs ] Clean logs
